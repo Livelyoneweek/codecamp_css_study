@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 적용안됌 첫번째요소는 p가 아님 */
+.container p:first-child {
+    background: red;
+}
+
+.container p:first-of-type {
+    background-color: blue;
+}
+
+.container p:last-of-type {
+    background-color: yellow;
+}
+
+.container p:nth-of-type(2) {
+    background-color: green;
+}
+
+.container span:first-of-type {
+    font-weight: 600;
+    text-decoration: underline;
+}

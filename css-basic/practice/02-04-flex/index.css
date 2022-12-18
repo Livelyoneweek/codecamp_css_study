@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ctrl+i 누르면 입력가능한 속성나옴 */
+
+.flex-container {
+    height: 300px;
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container div {
+    background-color: white;
+    border: 1px solid red;
+}
